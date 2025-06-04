@@ -58,21 +58,21 @@ We classify news headlines into categories like **Health**, **Science**, **Busin
 ### 5. 🏋️‍♀️ Training
 Prepare script.py using PyTorch
 
-Launch a training job using sagemaker.pytorch.estimator
+- Launch a training job using sagemaker.pytorch.estimator
 
-Save output model to S3
+- Save output model to S3
 
 ### 6. 🚀 Deploy Model
 Write inference.py
 
-Deploy SageMaker Endpoint using PyTorchModel
+- Deploy SageMaker Endpoint using PyTorchModel
 
-Test predictions inside notebook
+- Test predictions inside notebook
 
 ### 7. 🌐 API Deployment
-Create AWS Lambda function to call SageMaker endpoint
+- Create AWS Lambda function to call SageMaker endpoint
 
-Set up API Gateway with POST route
+- Set up API Gateway with POST route
 
-Test with Postman
+- Test with Postman
 
