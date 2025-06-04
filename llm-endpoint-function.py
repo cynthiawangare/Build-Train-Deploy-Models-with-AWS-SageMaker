@@ -7,8 +7,7 @@ def lambda_handler(event, context):
 
     body = json.loads(event['body'])
 
-    headline = body['query']['headline'] # new vaccines discovered
-
+    headline = body['query']['headline'] 
     endpoint_name = 'endpoint-name'
 
     payload = json.dumps({"inputs": headline})
